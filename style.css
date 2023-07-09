@@ -1,0 +1,234 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box; 
+ font-family: 'poppins', sans-serif;
+}
+
+body{
+    background-color: #fff;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: -webkit-fill-available;
+
+
+}
+
+html{
+    height: -webkit-fill-available;
+}
+span{
+    color:blue;
+}
+
+.logo{
+    background-color:#aaaa;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    position: sticky;
+   
+}
+
+.logo a{
+    font-size: 20px;
+    font-weight: 500;
+    color: navy;
+    text-decoration: none;
+    margin-left: 1.5em;
+    
+}
+
+.logo i{
+    display: none;
+}
+
+.links{
+   display: flex; 
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   padding :10px;
+}
+
+.links li{
+    font-size: 16px;
+    font-weight: 500;
+    color: navy;
+    text-decoration: none;
+    padding: 10px;
+    transition: .3s;
+    list-style: none;
+
+}
+
+.links a:hover,
+.links a.active{
+    color: red;
+}
+
+
+ section{
+    margin:40px;
+    flex: 1;
+    overflow: scroll;
+ }  
+
+.home{
+    font-size: 24px;
+    font-weight: 400;
+    color: lightslategray;
+    font-style: italic;
+
+} 
+
+.home-content{
+    display: flex;
+    flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+    width:100%;
+    font-size: 18px;
+    margin-top: 20px;
+    color: black;
+}
+.home-content p{
+    width: 60%;
+}
+
+
+.image img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+.btn{
+    font-size: 24px;
+    font-weight: 500px;
+    font-style: italic;
+    color: black;margin: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: aquamarine;
+    cursor: pointer;
+    transition:.3s;
+}
+
+.btn:hover{
+    color: red;
+}
+
+.btn a{
+    text-decoration: none;
+    
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    list-style: none;
+
+}
+
+.icons i{
+    text-decoration: none;
+    padding: 20px;
+    list-style: none;
+    color: blue;
+}
+p{
+    font-size: 18px;
+    color: black;
+}
+h4{
+    font-size: 24px;
+    font-weight: 400px;
+    color:blue;
+}
+.about-content, 
+.services-content,
+.contact-content{
+    margin-bottom: 30px;
+   
+}
+.prog, .skills{
+    font-size: 16px;
+    margin: 10px;
+    color: red;    
+}
+.mail a{
+    font-size: 12px;
+    color: blue;
+    cursor: pointer;
+    transition: .3s;
+    margin-top: 1em;
+}
+.mail a:hover{
+    color: red;
+}
+
+
+.footer{
+    background-color: #eeee;
+    height: 60px;
+    font-size: 18px;
+    color: maroon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+}
+@media all and (max-width:375px){
+  body{
+    width: auto;
+    height: 100vh;
+  }
+  .logo{
+    background-color:#eeee;
+  }
+  .logo a, .links li{
+    width: 100%;
+    font-size:8px;
+    padding: 3px;
+  }
+  .footer{
+    margin-bottom: 0;
+    color: red;
+   }
+    section{
+        width: 100%;
+        height: 100vh;
+    }
+  }
+   
+
+
+
+   
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+   
+
